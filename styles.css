@@ -36,7 +36,6 @@
   background-image: -ms-linear-gradient(top, #2c21cc, #3498db);
   background-image: -o-linear-gradient(top, #2c21cc, #3498db);
   background-image: linear-gradient(to bottom, #2c21cc, #3498db);
-  text-decoration: none;
 }
 
 body {

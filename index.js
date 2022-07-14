@@ -1,5 +1,5 @@
-document.querySelector(".btn").addEventListener("click", generateRandomDice);
-function generateRandomDice(){
+document.querySelector(".btn").addEventListener("click", generateRandomDicee);
+function generateRandomDicee(){
 var randomnumber1=Math.floor(Math.random()*6)+1;
 var randomnumber2=Math.floor(Math.random()*6)+1;
 switch (randomnumber1) {
