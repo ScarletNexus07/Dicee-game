@@ -1,3 +1,5 @@
+document.querySelector(".btn").addEventListener("click", generateRandomDice);
+function generateRandomDice(){
 var randomnumber1=Math.floor(Math.random()*6)+1;
 var randomnumber2=Math.floor(Math.random()*6)+1;
 switch (randomnumber1) {
@@ -64,3 +66,4 @@ else if(randomnumber1<randomnumber2)
 document.querySelector("h1").innerHTML="Player 2 Wins🚩";
 else
 document.querySelector("h1").innerHTML="Draw!";
+}
